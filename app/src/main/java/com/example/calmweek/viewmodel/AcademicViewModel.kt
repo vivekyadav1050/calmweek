@@ -9,7 +9,7 @@ import kotlinx.coroutines.flow.asStateFlow
 
 class AcademicViewModel : ViewModel() {
     private val repository = AcademicRepository()
-
+//priavte val latest= AcademicViewModel
     private val _semesters = MutableStateFlow(repository.getSemesters())
     val semesters: StateFlow<List<Semester>> = _semesters.asStateFlow()
 
