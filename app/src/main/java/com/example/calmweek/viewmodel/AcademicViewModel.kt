@@ -12,11 +12,12 @@ class AcademicViewModel : ViewModel() {
 //priavte val latest= AcademicViewModel
     private val _semesters = MutableStateFlow(repository.getSemesters())
     val semesters: StateFlow<List<Semester>> = _semesters.asStateFlow()
-//priavte val latest= AcademicViewModel
 
     fun getSubjects(semesterId: String): List<Subject> {
         return repository.getSubjectsForSemester(semesterId)
     }
+
+
 
     fun getResources(subjectId: String): List<Resource> {
         return repository.getResourcesForSubject(subjectId)

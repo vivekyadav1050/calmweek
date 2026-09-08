@@ -12,6 +12,8 @@ class TaskViewModel : ViewModel() {
 
     private val _tasks = MutableStateFlow(repository.getTasks())
     val tasks: StateFlow<List<Task>> = _tasks.asStateFlow()
+    //priavte val latest= AcademicViewModel
+
 
     fun addTask(title: String, description: String, priority: String, estimatedMinutes: Int) {
         val newTask = Task(
