@@ -14,7 +14,6 @@ import org.junit.Assert.*
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 
-//priavte val latest= AcademicViewModel
 
 @RunWith(AndroidJUnit4::class)
 class ExampleInstrumentedTest {
