@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848731196110",
+    "project_id": "calmweek-f6efc",
+    "storage_bucket": "calmweek-f6efc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848731196110:android:2d7e1ad64753e053259e9f",
+        "android_client_info": {
+          "package_name": "com.example.calmweek"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQHkeLhRQTqqSdqnpGMSkmyXsdvJHGZp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
