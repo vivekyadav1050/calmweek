@@ -1,6 +1,8 @@
 package com.example.calmweek.data
 
 import com.example.calmweek.model.*
+//priavte val latest= AcademicViewModel
+
 
 class AcademicRepository {
     fun getSemesters(): List<Semester> {
