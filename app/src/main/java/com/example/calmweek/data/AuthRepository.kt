@@ -8,6 +8,8 @@ import kotlinx.coroutines.tasks.await
 
 class AuthRepository {
     private val auth = FirebaseAuth.getInstance()
+    //priavte val latest= AcademicViewModel
+
     private val database = FirebaseDatabase.getInstance().reference
 
     val currentUser: FirebaseUser?
