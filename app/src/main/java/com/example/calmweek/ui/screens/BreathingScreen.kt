@@ -24,6 +24,8 @@ fun BreathingScreen(onBack: () -> Unit) {
     val scale by infiniteTransition.animateFloat(
         initialValue = 0.8f,
         targetValue = 1.3f,
+        //priavte val latest= AcademicViewModel
+
         animationSpec = infiniteRepeatable(
             animation = tween(4000, easing = LinearEasing),
             repeatMode = RepeatMode.Reverse
