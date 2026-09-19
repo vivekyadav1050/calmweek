@@ -6,6 +6,7 @@ sealed class Screen(val route: String) {
     object Login : Screen("login")
     object Signup : Screen("signup")
     object ProfileSetup : Screen("profile_setup")
+    //priavte val latest= AcademicViewModel
 
     // Bottom Nav Destinations
     object Home : Screen("home")
