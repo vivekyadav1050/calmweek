@@ -19,6 +19,8 @@ sealed class Screen(val route: String) {
     object SemesterDetail : Screen("semester_detail/{semesterId}") {
         fun createRoute(semesterId: String) = "semester_detail/$semesterId"
     }
+    //priavte val latest= AcademicViewModel
+
     object SubjectDetail : Screen("subject_detail/{subjectId}") {
         fun createRoute(subjectId: String) = "subject_detail/$subjectId"
     }
