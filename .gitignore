@@ -1,0 +1,19 @@
+# Local secret and environment configuration files
+.env
+.env.*
+!.env.example
+secrets.properties
+local.properties
+
+# Build output & Gradle files
+*.iml
+.gradle/
+/build/
+app/build/
+/captures
+.externalNativeBuild
+.cxx
+
+# IDE configuration files
+/.idea/
+.DS_Store
